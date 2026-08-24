@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Raw downloads & trained model pickles -- large, fully regenerable via
+# `python -m pipeline.cli run-all` (data/raw/ ~98MB, data/processed/ ~387MB).
+data/raw/
+data/processed/
+mlruns/
+
+# artifacts/ (~18MB: embeddings, metadata, precomputed recs, metrics) IS
+# committed on purpose -- the backend Docker image bakes it in at build
+# time via `COPY artifacts ./artifacts`, and deploy hosts build straight
+# from this repo with no separate training step.
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+frontend/.env.local
+frontend/tsconfig.tsbuildinfo
+
+# Editors / OS
+.vscode/
+.DS_Store
+
+# Local Claude Code session state (tool permissions, etc.) -- not product code
+.claude/

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: book-recsys-backend
+    runtime: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: ARTIFACTS_DIR
+        value: /app/artifacts
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false # set to your deployed Vercel URL after the frontend is live

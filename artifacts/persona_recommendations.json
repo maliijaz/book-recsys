@@ -1,0 +1,1642 @@
+[
+  {
+    "persona_id": 33540,
+    "favorite_books": [
+      {
+        "item_idx": 2253,
+        "book_id": 2254,
+        "title": "Fairest (The Lunar Chronicles, #3.5)"
+      },
+      {
+        "item_idx": 83,
+        "book_id": 84,
+        "title": "Jurassic Park (Jurassic Park, #1)"
+      },
+      {
+        "item_idx": 7779,
+        "book_id": 7780,
+        "title": "Succubus Heat (Georgina Kincaid, #4)"
+      },
+      {
+        "item_idx": 9183,
+        "book_id": 9184,
+        "title": "Succubus Shadows (Georgina Kincaid, #5)"
+      },
+      {
+        "item_idx": 2720,
+        "book_id": 2721,
+        "title": "Hexed (The Iron Druid Chronicles, #2)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 9281,
+        "book_id": 9282,
+        "title": "Staked (The Iron Druid Chronicles, #8)"
+      },
+      {
+        "item_idx": 5295,
+        "book_id": 5296,
+        "title": "The Chemist"
+      },
+      {
+        "item_idx": 2153,
+        "book_id": 2154,
+        "title": "Hounded (The Iron Druid Chronicles, #1)"
+      },
+      {
+        "item_idx": 5873,
+        "book_id": 5874,
+        "title": "Monster Hunter International (Monster Hunter International, #1)"
+      },
+      {
+        "item_idx": 8724,
+        "book_id": 8725,
+        "title": "Two Ravens and One Crow (The Iron Druid Chronicles, #4.5)"
+      },
+      {
+        "item_idx": 1729,
+        "book_id": 1730,
+        "title": "Armada"
+      },
+      {
+        "item_idx": 3821,
+        "book_id": 3822,
+        "title": "You're Never Weird on the Internet (Almost)"
+      },
+      {
+        "item_idx": 8553,
+        "book_id": 8554,
+        "title": "The Naturals (The Naturals, #1)"
+      },
+      {
+        "item_idx": 7236,
+        "book_id": 7237,
+        "title": "Influx"
+      },
+      {
+        "item_idx": 6464,
+        "book_id": 6465,
+        "title": "Infected (Infected, #1)"
+      }
+    ]
+  },
+  {
+    "persona_id": 15670,
+    "favorite_books": [
+      {
+        "item_idx": 2290,
+        "book_id": 2291,
+        "title": "Flyte (Septimus Heap, #2)"
+      },
+      {
+        "item_idx": 1633,
+        "book_id": 1634,
+        "title": "The Magician (The Secrets of the Immortal Nicholas Flamel, #2)"
+      },
+      {
+        "item_idx": 5351,
+        "book_id": 5352,
+        "title": "Darke (Septimus Heap, #6)"
+      },
+      {
+        "item_idx": 6733,
+        "book_id": 6734,
+        "title": "The Riddle (The Books of Pellinor, #2)"
+      },
+      {
+        "item_idx": 23,
+        "book_id": 24,
+        "title": "Harry Potter and the Goblet of Fire (Harry Potter, #4)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 1322,
+        "book_id": 1323,
+        "title": "Magyk (Septimus Heap, #1)"
+      },
+      {
+        "item_idx": 2618,
+        "book_id": 2619,
+        "title": "Physik (Septimus Heap, #3)"
+      },
+      {
+        "item_idx": 3043,
+        "book_id": 3044,
+        "title": "Queste (Septimus Heap, #4)"
+      },
+      {
+        "item_idx": 3259,
+        "book_id": 3260,
+        "title": "UnEnchanted (An Unfortunate Fairy Tale, #1)"
+      },
+      {
+        "item_idx": 6074,
+        "book_id": 6075,
+        "title": "The Mating  (Law of the Lycans, #2)"
+      },
+      {
+        "item_idx": 6770,
+        "book_id": 6771,
+        "title": "Fairest (An Unfortunate Fairy Tale, #2)"
+      },
+      {
+        "item_idx": 2020,
+        "book_id": 2021,
+        "title": "The Twilight Collection (Twilight, #1-3)"
+      },
+      {
+        "item_idx": 3635,
+        "book_id": 3636,
+        "title": "Eragon, Eldest & Brisingr (Inheritance, #1-3)"
+      },
+      {
+        "item_idx": 4160,
+        "book_id": 4161,
+        "title": "James Potter and the Hall of Elders' Crossing (James Potter, #1)"
+      },
+      {
+        "item_idx": 9348,
+        "book_id": 9349,
+        "title": "A Modern Witch (A Modern Witch, #1)"
+      }
+    ]
+  },
+  {
+    "persona_id": 43422,
+    "favorite_books": [
+      {
+        "item_idx": 240,
+        "book_id": 241,
+        "title": "Number the Stars"
+      },
+      {
+        "item_idx": 130,
+        "book_id": 131,
+        "title": "The Grapes of Wrath"
+      },
+      {
+        "item_idx": 1366,
+        "book_id": 1367,
+        "title": "The Once and Future King (The Once and Future King #1-4)"
+      },
+      {
+        "item_idx": 286,
+        "book_id": 287,
+        "title": "The Fountainhead"
+      },
+      {
+        "item_idx": 93,
+        "book_id": 94,
+        "title": "One Hundred Years of Solitude"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 3843,
+        "book_id": 3844,
+        "title": "King Leopold's Ghost"
+      },
+      {
+        "item_idx": 9649,
+        "book_id": 9650,
+        "title": "Nine Parts of Desire: The Hidden World of Islamic Women"
+      },
+      {
+        "item_idx": 409,
+        "book_id": 410,
+        "title": "Things Fall Apart (The African Trilogy, #1)"
+      },
+      {
+        "item_idx": 1514,
+        "book_id": 1515,
+        "title": "Infidel"
+      },
+      {
+        "item_idx": 5793,
+        "book_id": 5794,
+        "title": "First They Killed My Father: A Daughter of Cambodia Remembers"
+      },
+      {
+        "item_idx": 7558,
+        "book_id": 7559,
+        "title": "The Thing Around Your Neck"
+      },
+      {
+        "item_idx": 2461,
+        "book_id": 2462,
+        "title": "The Reluctant Fundamentalist"
+      },
+      {
+        "item_idx": 662,
+        "book_id": 663,
+        "title": "A People's History of the United States"
+      },
+      {
+        "item_idx": 3952,
+        "book_id": 3953,
+        "title": "The New Jim Crow: Mass Incarceration in the Age of Colorblindness"
+      },
+      {
+        "item_idx": 3185,
+        "book_id": 3186,
+        "title": "Purple Hibiscus"
+      }
+    ]
+  },
+  {
+    "persona_id": 14570,
+    "favorite_books": [
+      {
+        "item_idx": 2081,
+        "book_id": 2082,
+        "title": "The Qur'an / \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645"
+      },
+      {
+        "item_idx": 9670,
+        "book_id": 9671,
+        "title": "First Term at Malory Towers (Malory Towers, #1)"
+      },
+      {
+        "item_idx": 103,
+        "book_id": 104,
+        "title": "The Road"
+      },
+      {
+        "item_idx": 379,
+        "book_id": 380,
+        "title": "Norwegian Wood"
+      },
+      {
+        "item_idx": 9403,
+        "book_id": 9404,
+        "title": "Five Run Away Together (Famous Five, #3)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 2322,
+        "book_id": 2323,
+        "title": "Tell Me Your Dreams"
+      },
+      {
+        "item_idx": 1914,
+        "book_id": 1915,
+        "title": "Dance Dance Dance (The Rat, #4)"
+      },
+      {
+        "item_idx": 5952,
+        "book_id": 5953,
+        "title": "Supernova: Ksatria, Puteri, dan Bintang Jatuh"
+      },
+      {
+        "item_idx": 5492,
+        "book_id": 5493,
+        "title": "Totto-chan: The Little Girl at the Window"
+      },
+      {
+        "item_idx": 1281,
+        "book_id": 1282,
+        "title": "After Dark"
+      },
+      {
+        "item_idx": 7878,
+        "book_id": 7879,
+        "title": "Double Act"
+      },
+      {
+        "item_idx": 7794,
+        "book_id": 7795,
+        "title": "Supernova: Akar"
+      },
+      {
+        "item_idx": 1702,
+        "book_id": 1703,
+        "title": "South of the Border, West of the Sun"
+      },
+      {
+        "item_idx": 9032,
+        "book_id": 9033,
+        "title": "Supernova: Petir"
+      },
+      {
+        "item_idx": 1269,
+        "book_id": 1270,
+        "title": "Sputnik Sweetheart"
+      }
+    ]
+  },
+  {
+    "persona_id": 44316,
+    "favorite_books": [
+      {
+        "item_idx": 1,
+        "book_id": 2,
+        "title": "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)"
+      },
+      {
+        "item_idx": 773,
+        "book_id": 774,
+        "title": "Cress (The Lunar Chronicles, #3)"
+      },
+      {
+        "item_idx": 0,
+        "book_id": 1,
+        "title": "The Hunger Games (The Hunger Games, #1)"
+      },
+      {
+        "item_idx": 133,
+        "book_id": 134,
+        "title": "City of Glass (The Mortal Instruments, #3)"
+      },
+      {
+        "item_idx": 11,
+        "book_id": 12,
+        "title": "Divergent (Divergent, #1)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 4910,
+        "book_id": 4911,
+        "title": "Percy Jackson and the Olympians Boxed Set (Percy Jackson and the Olympians, #1-5)"
+      },
+      {
+        "item_idx": 3053,
+        "book_id": 3054,
+        "title": "Harry Potter and the Chamber of Secrets: Sheet Music for Flute with C.D"
+      },
+      {
+        "item_idx": 5711,
+        "book_id": 5712,
+        "title": "The Selection Stories: The Prince & The Guard (The Selection, #0.5, 2.5)"
+      },
+      {
+        "item_idx": 7170,
+        "book_id": 7171,
+        "title": "The Inkheart Trilogy: Inkheart, Inkspell, Inkdeath (Inkworld, #1-3)"
+      },
+      {
+        "item_idx": 5945,
+        "book_id": 5946,
+        "title": "The Quillan Games (Pendragon, #7)"
+      },
+      {
+        "item_idx": 4457,
+        "book_id": 4458,
+        "title": "The Never War (Pendragon, #3)"
+      },
+      {
+        "item_idx": 3635,
+        "book_id": 3636,
+        "title": "Eragon, Eldest & Brisingr (Inheritance, #1-3)"
+      },
+      {
+        "item_idx": 716,
+        "book_id": 717,
+        "title": "The Hunger Games: Official Illustrated Movie Companion"
+      },
+      {
+        "item_idx": 5351,
+        "book_id": 5352,
+        "title": "Darke (Septimus Heap, #6)"
+      },
+      {
+        "item_idx": 3043,
+        "book_id": 3044,
+        "title": "Queste (Septimus Heap, #4)"
+      }
+    ]
+  },
+  {
+    "persona_id": 9429,
+    "favorite_books": [
+      {
+        "item_idx": 1974,
+        "book_id": 1975,
+        "title": "The Penultimate Peril (A Series of Unfortunate Events, #12)"
+      },
+      {
+        "item_idx": 1232,
+        "book_id": 1233,
+        "title": "The Vile Village (A Series of Unfortunate Events, #7)"
+      },
+      {
+        "item_idx": 1444,
+        "book_id": 1445,
+        "title": "Flipped"
+      },
+      {
+        "item_idx": 1058,
+        "book_id": 1059,
+        "title": "Among the Hidden (Shadow Children, #1)"
+      },
+      {
+        "item_idx": 355,
+        "book_id": 356,
+        "title": "The Bad Beginning (A Series of Unfortunate Events, #1)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 5454,
+        "book_id": 5455,
+        "title": "Brian's Winter (Brian's Saga, #3)"
+      },
+      {
+        "item_idx": 6262,
+        "book_id": 6263,
+        "title": "The Compound (The Compound, #1)"
+      },
+      {
+        "item_idx": 5015,
+        "book_id": 5016,
+        "title": "Everlost (Skinjacker, #1)"
+      },
+      {
+        "item_idx": 9351,
+        "book_id": 9352,
+        "title": "Double Identity"
+      },
+      {
+        "item_idx": 6812,
+        "book_id": 6813,
+        "title": "Kira-Kira"
+      },
+      {
+        "item_idx": 3159,
+        "book_id": 3160,
+        "title": "Elsewhere"
+      },
+      {
+        "item_idx": 9508,
+        "book_id": 9509,
+        "title": "Joey Pigza Swallowed the Key (Joey Pigza, #1)"
+      },
+      {
+        "item_idx": 3776,
+        "book_id": 3777,
+        "title": "Fear (Gone, #5)"
+      },
+      {
+        "item_idx": 8967,
+        "book_id": 8968,
+        "title": "Bruiser"
+      },
+      {
+        "item_idx": 6937,
+        "book_id": 6938,
+        "title": "Running Out of Time"
+      }
+    ]
+  },
+  {
+    "persona_id": 20356,
+    "favorite_books": [
+      {
+        "item_idx": 191,
+        "book_id": 192,
+        "title": "The Name of the Wind (The Kingkiller Chronicle, #1)"
+      },
+      {
+        "item_idx": 1428,
+        "book_id": 1429,
+        "title": "Beyond the Shadows (Night Angel, #3)"
+      },
+      {
+        "item_idx": 759,
+        "book_id": 760,
+        "title": "Ender's Shadow (Ender's Shadow, #1)"
+      },
+      {
+        "item_idx": 8387,
+        "book_id": 8388,
+        "title": "Elven Star (The Death Gate Cycle, #2)"
+      },
+      {
+        "item_idx": 3,
+        "book_id": 4,
+        "title": "To Kill a Mockingbird"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 8372,
+        "book_id": 8373,
+        "title": "Alcatraz Versus the Evil Librarians (Alcatraz, #1)"
+      },
+      {
+        "item_idx": 3533,
+        "book_id": 3534,
+        "title": "The Broken Eye (Lightbringer, #3)"
+      },
+      {
+        "item_idx": 2055,
+        "book_id": 2056,
+        "title": "New Spring (Wheel of Time, #0)"
+      },
+      {
+        "item_idx": 9695,
+        "book_id": 9696,
+        "title": "Perfect Shadow (Night Angel, #0.5)"
+      },
+      {
+        "item_idx": 7944,
+        "book_id": 7945,
+        "title": "Ender's Game, Volume 2: Command School"
+      },
+      {
+        "item_idx": 491,
+        "book_id": 492,
+        "title": "Speaker for the Dead (Ender's Saga, #2)"
+      },
+      {
+        "item_idx": 2899,
+        "book_id": 2900,
+        "title": "Ender in Exile (Ender's Saga, #1.2)"
+      },
+      {
+        "item_idx": 8034,
+        "book_id": 8035,
+        "title": "Black Sun Rising (The Coldfire Trilogy, #1)"
+      },
+      {
+        "item_idx": 8910,
+        "book_id": 8911,
+        "title": "The Blood Mirror (Lightbringer, #4)"
+      },
+      {
+        "item_idx": 2605,
+        "book_id": 2606,
+        "title": "The Daylight War (Demon Cycle, #3)"
+      }
+    ]
+  },
+  {
+    "persona_id": 45430,
+    "favorite_books": [
+      {
+        "item_idx": 443,
+        "book_id": 444,
+        "title": "Winnie-the-Pooh (Winnie-the-Pooh, #1)"
+      },
+      {
+        "item_idx": 766,
+        "book_id": 767,
+        "title": "Seabiscuit: An American Legend"
+      },
+      {
+        "item_idx": 4272,
+        "book_id": 4273,
+        "title": "Le Morte d'Arthur: King Arthur and the Legends of the Round Table"
+      },
+      {
+        "item_idx": 334,
+        "book_id": 335,
+        "title": "James and the Giant Peach"
+      },
+      {
+        "item_idx": 365,
+        "book_id": 366,
+        "title": "John Adams"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 7439,
+        "book_id": 7440,
+        "title": "100 Love Sonnets"
+      },
+      {
+        "item_idx": 5375,
+        "book_id": 5376,
+        "title": "The Constitution of the United States of America"
+      },
+      {
+        "item_idx": 9023,
+        "book_id": 9024,
+        "title": "Angels in America"
+      },
+      {
+        "item_idx": 5839,
+        "book_id": 5840,
+        "title": "Complete Works of Oscar Wilde"
+      },
+      {
+        "item_idx": 1665,
+        "book_id": 1666,
+        "title": "Shakespeare's Sonnets"
+      },
+      {
+        "item_idx": 1132,
+        "book_id": 1133,
+        "title": "The English Patient"
+      },
+      {
+        "item_idx": 3906,
+        "book_id": 3907,
+        "title": "The Waste Land"
+      },
+      {
+        "item_idx": 9783,
+        "book_id": 9784,
+        "title": "Selected Poems"
+      },
+      {
+        "item_idx": 4652,
+        "book_id": 4653,
+        "title": "The Complete Novels"
+      },
+      {
+        "item_idx": 8964,
+        "book_id": 8965,
+        "title": "Four Great Tragedies: Hamlet / Othello / King Lear / Macbeth"
+      }
+    ]
+  },
+  {
+    "persona_id": 48435,
+    "favorite_books": [
+      {
+        "item_idx": 5571,
+        "book_id": 5572,
+        "title": "Again the Magic (Wallflowers, #0)"
+      },
+      {
+        "item_idx": 542,
+        "book_id": 543,
+        "title": "Last Sacrifice (Vampire Academy, #6)"
+      },
+      {
+        "item_idx": 1890,
+        "book_id": 1891,
+        "title": "Dreamfever (Fever, #4)"
+      },
+      {
+        "item_idx": 1900,
+        "book_id": 1901,
+        "title": "Shadowfever (Fever, #5)"
+      },
+      {
+        "item_idx": 8908,
+        "book_id": 8909,
+        "title": "Up from the Grave (Night Huntress, #7)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 4415,
+        "book_id": 4416,
+        "title": "Kiss an Angel"
+      },
+      {
+        "item_idx": 4182,
+        "book_id": 4183,
+        "title": "The Canterville Ghost"
+      },
+      {
+        "item_idx": 7496,
+        "book_id": 7497,
+        "title": "The Winter Rose (The Tea Rose, #2)"
+      },
+      {
+        "item_idx": 7167,
+        "book_id": 7168,
+        "title": "Married By Morning (The Hathaways, #4)"
+      },
+      {
+        "item_idx": 6740,
+        "book_id": 6741,
+        "title": "Scandal in Spring (Wallflowers, #4)"
+      },
+      {
+        "item_idx": 4745,
+        "book_id": 4746,
+        "title": "La Dame aux Cam\u00e9lias"
+      },
+      {
+        "item_idx": 4925,
+        "book_id": 4926,
+        "title": "Secrets of a Summer Night (Wallflowers, #1)"
+      },
+      {
+        "item_idx": 4496,
+        "book_id": 4497,
+        "title": "The Tea Rose (The Tea Rose, #1)"
+      },
+      {
+        "item_idx": 8041,
+        "book_id": 8042,
+        "title": "Seduce Me at Sunrise (The Hathaways, #2)"
+      },
+      {
+        "item_idx": 4856,
+        "book_id": 4857,
+        "title": "Eternal Kiss of Darkness (Night Huntress World, #2)"
+      }
+    ]
+  },
+  {
+    "persona_id": 42974,
+    "favorite_books": [
+      {
+        "item_idx": 5124,
+        "book_id": 5125,
+        "title": "Stories of Your Life and Others"
+      },
+      {
+        "item_idx": 136,
+        "book_id": 137,
+        "title": "Outlander (Outlander, #1)"
+      },
+      {
+        "item_idx": 1384,
+        "book_id": 1385,
+        "title": "The Bone Clocks"
+      },
+      {
+        "item_idx": 1489,
+        "book_id": 1490,
+        "title": "Finders Keepers (Bill Hodges Trilogy, #2)"
+      },
+      {
+        "item_idx": 3061,
+        "book_id": 3062,
+        "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 8872,
+        "book_id": 8873,
+        "title": "The Commitments"
+      },
+      {
+        "item_idx": 9948,
+        "book_id": 9949,
+        "title": "The Men Who Stare at Goats"
+      },
+      {
+        "item_idx": 7978,
+        "book_id": 7979,
+        "title": "Born to Run"
+      },
+      {
+        "item_idx": 4544,
+        "book_id": 4545,
+        "title": "Eat and Run: My Unlikely Journey to Ultramarathon Greatness"
+      },
+      {
+        "item_idx": 1306,
+        "book_id": 1307,
+        "title": "How to Be a Woman"
+      },
+      {
+        "item_idx": 9395,
+        "book_id": 9396,
+        "title": "The Wicked Girls"
+      },
+      {
+        "item_idx": 7590,
+        "book_id": 7591,
+        "title": "Broken Monsters"
+      },
+      {
+        "item_idx": 3779,
+        "book_id": 3780,
+        "title": "Lord John and the Private Matter (Lord John Grey, #1)"
+      },
+      {
+        "item_idx": 5229,
+        "book_id": 5230,
+        "title": "The Bees"
+      },
+      {
+        "item_idx": 7766,
+        "book_id": 7767,
+        "title": "The Faraway Tree Stories (The Faraway Tree #1-3)"
+      }
+    ]
+  },
+  {
+    "persona_id": 37087,
+    "favorite_books": [
+      {
+        "item_idx": 9544,
+        "book_id": 9545,
+        "title": "And Ladies of the Club"
+      },
+      {
+        "item_idx": 310,
+        "book_id": 311,
+        "title": "The Thorn Birds"
+      },
+      {
+        "item_idx": 3142,
+        "book_id": 3143,
+        "title": "The Far Pavilions"
+      },
+      {
+        "item_idx": 3970,
+        "book_id": 3971,
+        "title": "Evergreen"
+      },
+      {
+        "item_idx": 1012,
+        "book_id": 1013,
+        "title": "Better Homes and Gardens New Cook Book  "
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 3635,
+        "book_id": 3636,
+        "title": "Eragon, Eldest & Brisingr (Inheritance, #1-3)"
+      },
+      {
+        "item_idx": 5560,
+        "book_id": 5561,
+        "title": "The Bastard (Kent Family Chronicles, #1)"
+      },
+      {
+        "item_idx": 5700,
+        "book_id": 5701,
+        "title": "The Last Seven Months of Anne Frank"
+      },
+      {
+        "item_idx": 6428,
+        "book_id": 6429,
+        "title": "Nancy Drew: #1-64"
+      },
+      {
+        "item_idx": 7512,
+        "book_id": 7513,
+        "title": "The Hollow Hills (Arthurian Saga, #2)"
+      },
+      {
+        "item_idx": 7101,
+        "book_id": 7102,
+        "title": "Mariana"
+      },
+      {
+        "item_idx": 7164,
+        "book_id": 7165,
+        "title": "When Calls the Heart (Canadian West, #1)"
+      },
+      {
+        "item_idx": 7496,
+        "book_id": 7497,
+        "title": "The Winter Rose (The Tea Rose, #2)"
+      },
+      {
+        "item_idx": 4042,
+        "book_id": 4043,
+        "title": "Anne Frank: Beyond the Diary - A Photographic Remembrance"
+      },
+      {
+        "item_idx": 4716,
+        "book_id": 4717,
+        "title": "The Shunning (The Heritage of Lancaster County, #1)"
+      }
+    ]
+  },
+  {
+    "persona_id": 39970,
+    "favorite_books": [
+      {
+        "item_idx": 3306,
+        "book_id": 3307,
+        "title": "The River of Doubt: Theodore Roosevelt's Darkest Journey"
+      },
+      {
+        "item_idx": 1551,
+        "book_id": 1552,
+        "title": "The Killer Angels (The Civil War Trilogy, #2)"
+      },
+      {
+        "item_idx": 1733,
+        "book_id": 1734,
+        "title": "Endurance: Shackleton's Incredible Voyage"
+      },
+      {
+        "item_idx": 143,
+        "book_id": 144,
+        "title": "Unbroken: A World War II Story of Survival, Resilience, and Redemption"
+      },
+      {
+        "item_idx": 465,
+        "book_id": 466,
+        "title": "The Hobbit: Graphic Novel"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 5513,
+        "book_id": 5514,
+        "title": "Between a Rock and a Hard Place"
+      },
+      {
+        "item_idx": 4770,
+        "book_id": 4771,
+        "title": "The Doomsday Key (Sigma Force, #6)"
+      },
+      {
+        "item_idx": 7359,
+        "book_id": 7360,
+        "title": "In Harm's Way: The Sinking of the U.S.S. Indianapolis and the Extraordinary Story of Its Survivors"
+      },
+      {
+        "item_idx": 6653,
+        "book_id": 6654,
+        "title": "The Endurance: Shackleton's Legendary Antarctic Expedition"
+      },
+      {
+        "item_idx": 7916,
+        "book_id": 7917,
+        "title": "Krakatoa: The Day the World Exploded"
+      },
+      {
+        "item_idx": 9083,
+        "book_id": 9084,
+        "title": "The Greatest Generation"
+      },
+      {
+        "item_idx": 3569,
+        "book_id": 3570,
+        "title": "Mayflower: A Story of Courage, Community, and War"
+      },
+      {
+        "item_idx": 8066,
+        "book_id": 8067,
+        "title": "Mount Dragon"
+      },
+      {
+        "item_idx": 7888,
+        "book_id": 7889,
+        "title": "Paths of Glory"
+      },
+      {
+        "item_idx": 7629,
+        "book_id": 7630,
+        "title": "The Long Walk: The True Story of a Trek to Freedom"
+      }
+    ]
+  },
+  {
+    "persona_id": 39845,
+    "favorite_books": [
+      {
+        "item_idx": 293,
+        "book_id": 294,
+        "title": "The Son of Neptune (The Heroes of Olympus, #2)"
+      },
+      {
+        "item_idx": 1061,
+        "book_id": 1062,
+        "title": "The Heir (The Selection, #4)"
+      },
+      {
+        "item_idx": 4134,
+        "book_id": 4135,
+        "title": "The Retribution of Mara Dyer (Mara Dyer, #3)"
+      },
+      {
+        "item_idx": 4816,
+        "book_id": 4817,
+        "title": "Apollyon (Covenant, #4)"
+      },
+      {
+        "item_idx": 6461,
+        "book_id": 6462,
+        "title": "Sentinel (Covenant, #5)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 8553,
+        "book_id": 8554,
+        "title": "The Naturals (The Naturals, #1)"
+      },
+      {
+        "item_idx": 7159,
+        "book_id": 7160,
+        "title": "Elixir (Covenant, #3.5)"
+      },
+      {
+        "item_idx": 5531,
+        "book_id": 5532,
+        "title": "This Is Where It Ends"
+      },
+      {
+        "item_idx": 7221,
+        "book_id": 7222,
+        "title": "Of Triton (The Syrena Legacy, #2)"
+      },
+      {
+        "item_idx": 2344,
+        "book_id": 2345,
+        "title": "The Immortal Rules (Blood of Eden, #1)"
+      },
+      {
+        "item_idx": 4829,
+        "book_id": 4830,
+        "title": "The Ruby Circle (Bloodlines, #6)"
+      },
+      {
+        "item_idx": 6050,
+        "book_id": 6051,
+        "title": "United We Spy (Gallagher Girls, #6)"
+      },
+      {
+        "item_idx": 8826,
+        "book_id": 8827,
+        "title": "Stolen Songbird (The Malediction Trilogy, #1)"
+      },
+      {
+        "item_idx": 9061,
+        "book_id": 9062,
+        "title": "Winter's Passage (Iron Fey, #1.5)"
+      },
+      {
+        "item_idx": 5596,
+        "book_id": 5597,
+        "title": "The Jewel (The Lone City, #1)"
+      }
+    ]
+  },
+  {
+    "persona_id": 1044,
+    "favorite_books": [
+      {
+        "item_idx": 3570,
+        "book_id": 3571,
+        "title": "Wicked Deeds on a Winter's Night (Immortals After Dark #4)"
+      },
+      {
+        "item_idx": 6458,
+        "book_id": 6459,
+        "title": "The Darkest Secret (Lords of the Underworld #7)"
+      },
+      {
+        "item_idx": 3114,
+        "book_id": 3115,
+        "title": "A Hunger Like No Other (Immortals After Dark #2)"
+      },
+      {
+        "item_idx": 3901,
+        "book_id": 3902,
+        "title": "Dark Needs at Night's Edge (Immortals After Dark #5)"
+      },
+      {
+        "item_idx": 3188,
+        "book_id": 3189,
+        "title": "No Rest for the Wicked (Immortals After Dark #3)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 8526,
+        "book_id": 8527,
+        "title": "MacRieve (Immortals After Dark, #14)"
+      },
+      {
+        "item_idx": 6917,
+        "book_id": 6918,
+        "title": "Invincible (Chronicles of Nick, #2)"
+      },
+      {
+        "item_idx": 8344,
+        "book_id": 8345,
+        "title": "Shadow's Claim (Immortals After Dark, #13; The Dacians, #1)"
+      },
+      {
+        "item_idx": 8673,
+        "book_id": 8674,
+        "title": "Infamous (Chronicles of Nick, #3)"
+      },
+      {
+        "item_idx": 2419,
+        "book_id": 2420,
+        "title": "The Demigod Files (Percy Jackson and the Olympians)"
+      },
+      {
+        "item_idx": 1765,
+        "book_id": 1766,
+        "title": "Bitterblue (Graceling Realm, #3)"
+      },
+      {
+        "item_idx": 6666,
+        "book_id": 6667,
+        "title": "Crave (Fallen Angels, #2)"
+      },
+      {
+        "item_idx": 1715,
+        "book_id": 1716,
+        "title": "The Rise of Nine (Lorien Legacies, #3)"
+      },
+      {
+        "item_idx": 8269,
+        "book_id": 8270,
+        "title": "Percy Jackson & the Olympians:  The Ultimate Guide"
+      },
+      {
+        "item_idx": 3615,
+        "book_id": 3616,
+        "title": "Covet (Fallen Angels, #1)"
+      }
+    ]
+  },
+  {
+    "persona_id": 9565,
+    "favorite_books": [
+      {
+        "item_idx": 3,
+        "book_id": 4,
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "item_idx": 4043,
+        "book_id": 4044,
+        "title": "Kushiel's Chosen (Ph\u00e8dre's Trilogy, #2)"
+      },
+      {
+        "item_idx": 675,
+        "book_id": 676,
+        "title": "Entwined with You (Crossfire, #3)"
+      },
+      {
+        "item_idx": 333,
+        "book_id": 334,
+        "title": "Reflected in You (Crossfire, #2)"
+      },
+      {
+        "item_idx": 217,
+        "book_id": 218,
+        "title": "Bared to You (Crossfire, #1)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 9085,
+        "book_id": 9086,
+        "title": "Luck in the Shadows (Nightrunner, #1)"
+      },
+      {
+        "item_idx": 6898,
+        "book_id": 6899,
+        "title": "The Line (Witching Savannah, #1)"
+      },
+      {
+        "item_idx": 6537,
+        "book_id": 6538,
+        "title": "The Master Magician (The Paper Magician Trilogy, #3)"
+      },
+      {
+        "item_idx": 4073,
+        "book_id": 4074,
+        "title": "Fool's Assassin (The Fitz and the Fool, #1)"
+      },
+      {
+        "item_idx": 5413,
+        "book_id": 5414,
+        "title": "Green Rider (Green Rider, #1)"
+      },
+      {
+        "item_idx": 7887,
+        "book_id": 7888,
+        "title": "First Rider's Call (Green Rider, #2)"
+      },
+      {
+        "item_idx": 3259,
+        "book_id": 3260,
+        "title": "UnEnchanted (An Unfortunate Fairy Tale, #1)"
+      },
+      {
+        "item_idx": 2953,
+        "book_id": 2954,
+        "title": "The Blue Sword (Damar, #1)"
+      },
+      {
+        "item_idx": 6227,
+        "book_id": 6228,
+        "title": "Fool's Quest  (The Fitz and The Fool, #2)"
+      },
+      {
+        "item_idx": 2576,
+        "book_id": 2577,
+        "title": "The Sweet Far Thing (Gemma Doyle, #3)"
+      }
+    ]
+  },
+  {
+    "persona_id": 7406,
+    "favorite_books": [
+      {
+        "item_idx": 101,
+        "book_id": 102,
+        "title": "Where the Wild Things Are"
+      },
+      {
+        "item_idx": 3,
+        "book_id": 4,
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "item_idx": 5880,
+        "book_id": 5881,
+        "title": "A Single Man"
+      },
+      {
+        "item_idx": 7761,
+        "book_id": 7762,
+        "title": "Mornings in Jenin"
+      },
+      {
+        "item_idx": 172,
+        "book_id": 173,
+        "title": "A Clockwork Orange"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 6851,
+        "book_id": 6852,
+        "title": "Under the Skin"
+      },
+      {
+        "item_idx": 2920,
+        "book_id": 2921,
+        "title": "Ariel"
+      },
+      {
+        "item_idx": 5729,
+        "book_id": 5730,
+        "title": "The Blind Owl"
+      },
+      {
+        "item_idx": 3720,
+        "book_id": 3721,
+        "title": "Keeping You a Secret"
+      },
+      {
+        "item_idx": 4669,
+        "book_id": 4670,
+        "title": "The Melancholy Death of Oyster Boy and Other Stories"
+      },
+      {
+        "item_idx": 3848,
+        "book_id": 3849,
+        "title": "Habibi"
+      },
+      {
+        "item_idx": 3733,
+        "book_id": 3734,
+        "title": "The Diary of Frida Kahlo: An Intimate Self-Portrait"
+      },
+      {
+        "item_idx": 2864,
+        "book_id": 2865,
+        "title": "The Gashlycrumb Tinies (The Vinegar Works, #1)"
+      },
+      {
+        "item_idx": 3414,
+        "book_id": 3415,
+        "title": "Annie on My Mind"
+      },
+      {
+        "item_idx": 5272,
+        "book_id": 5273,
+        "title": "The Bloody Chamber and Other Stories"
+      }
+    ]
+  },
+  {
+    "persona_id": 5879,
+    "favorite_books": [
+      {
+        "item_idx": 481,
+        "book_id": 482,
+        "title": "The Kitchen House"
+      },
+      {
+        "item_idx": 4145,
+        "book_id": 4146,
+        "title": "Nefertiti"
+      },
+      {
+        "item_idx": 187,
+        "book_id": 188,
+        "title": "A Dance with Dragons (A Song of Ice and Fire, #5)"
+      },
+      {
+        "item_idx": 134,
+        "book_id": 135,
+        "title": "A Storm of Swords (A Song of Ice and Fire, #3)"
+      },
+      {
+        "item_idx": 290,
+        "book_id": 291,
+        "title": "Cutting for Stone"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 7496,
+        "book_id": 7497,
+        "title": "The Winter Rose (The Tea Rose, #2)"
+      },
+      {
+        "item_idx": 4242,
+        "book_id": 4243,
+        "title": "The Kingmaker's Daughter (The Plantagenet and Tudor Novels, #4)"
+      },
+      {
+        "item_idx": 3774,
+        "book_id": 3775,
+        "title": "A Game of Thrones / A Clash of Kings (A Song of Ice and Fire, #1-2)"
+      },
+      {
+        "item_idx": 5793,
+        "book_id": 5794,
+        "title": "First They Killed My Father: A Daughter of Cambodia Remembers"
+      },
+      {
+        "item_idx": 6611,
+        "book_id": 6612,
+        "title": "The Great Influenza: The Story of the Deadliest Pandemic in History"
+      },
+      {
+        "item_idx": 1215,
+        "book_id": 1216,
+        "title": "Moloka'i"
+      },
+      {
+        "item_idx": 1908,
+        "book_id": 1909,
+        "title": "Someone Knows My Name"
+      },
+      {
+        "item_idx": 7351,
+        "book_id": 7352,
+        "title": "Follow the River"
+      },
+      {
+        "item_idx": 8690,
+        "book_id": 8691,
+        "title": "One Good Dog"
+      },
+      {
+        "item_idx": 2113,
+        "book_id": 2114,
+        "title": "Mudbound"
+      }
+    ]
+  },
+  {
+    "persona_id": 52248,
+    "favorite_books": [
+      {
+        "item_idx": 1253,
+        "book_id": 1254,
+        "title": "Red Seas Under Red Skies (Gentleman Bastard, #2)"
+      },
+      {
+        "item_idx": 429,
+        "book_id": 430,
+        "title": "Kafka on the Shore"
+      },
+      {
+        "item_idx": 4442,
+        "book_id": 4443,
+        "title": "The Long Goodbye (Philip Marlowe, #6)"
+      },
+      {
+        "item_idx": 460,
+        "book_id": 461,
+        "title": "The Good Earth (House of Earth, #1)"
+      },
+      {
+        "item_idx": 4,
+        "book_id": 5,
+        "title": "The Great Gatsby"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 9221,
+        "book_id": 9222,
+        "title": "Ghost Wars: The Secret History of the CIA, Afghanistan, and bin Laden from the Soviet Invasion to September 10, 2001"
+      },
+      {
+        "item_idx": 7550,
+        "book_id": 7551,
+        "title": "The Darkness That Comes Before (The Prince of Nothing, #1)"
+      },
+      {
+        "item_idx": 4443,
+        "book_id": 4444,
+        "title": "Farewell, My Lovely (Philip Marlowe, #2)"
+      },
+      {
+        "item_idx": 4565,
+        "book_id": 4566,
+        "title": "With the Old Breed: At Peleliu and Okinawa"
+      },
+      {
+        "item_idx": 7045,
+        "book_id": 7046,
+        "title": "Generation Kill: Devil Dogs, Iceman, Captain America, and the New Face of American War"
+      },
+      {
+        "item_idx": 9171,
+        "book_id": 9172,
+        "title": "Underground: The Tokyo Gas Attack and the Japanese Psyche"
+      },
+      {
+        "item_idx": 7825,
+        "book_id": 7826,
+        "title": "The Moon Is Down"
+      },
+      {
+        "item_idx": 6024,
+        "book_id": 6025,
+        "title": "Red Harvest"
+      },
+      {
+        "item_idx": 8817,
+        "book_id": 8818,
+        "title": "Will You Please Be Quiet, Please?"
+      },
+      {
+        "item_idx": 7568,
+        "book_id": 7569,
+        "title": "An Army at Dawn: The War in North Africa, 1942-1943 (World War II Liberation Trilogy, #1)"
+      }
+    ]
+  },
+  {
+    "persona_id": 23385,
+    "favorite_books": [
+      {
+        "item_idx": 4728,
+        "book_id": 4729,
+        "title": "Gnomes"
+      },
+      {
+        "item_idx": 850,
+        "book_id": 851,
+        "title": "Flowers in the Attic (Dollanganger, #1)"
+      },
+      {
+        "item_idx": 401,
+        "book_id": 402,
+        "title": "The Tell-Tale Heart and Other Writings"
+      },
+      {
+        "item_idx": 1074,
+        "book_id": 1075,
+        "title": "Dolores Claiborne"
+      },
+      {
+        "item_idx": 910,
+        "book_id": 911,
+        "title": "Gerald's Game"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 7166,
+        "book_id": 7167,
+        "title": "Saving Grace"
+      },
+      {
+        "item_idx": 9365,
+        "book_id": 9366,
+        "title": "The Gift (Crown's Spies, #3)"
+      },
+      {
+        "item_idx": 6209,
+        "book_id": 6210,
+        "title": "Ransom (Highlands' Lairds, #2)"
+      },
+      {
+        "item_idx": 3886,
+        "book_id": 3887,
+        "title": "The Secret (Highlands' Lairds #1)"
+      },
+      {
+        "item_idx": 7057,
+        "book_id": 7058,
+        "title": "The Black Lyon (Montgomery/Taggert, #1)"
+      },
+      {
+        "item_idx": 6940,
+        "book_id": 6941,
+        "title": "Something Wonderful (Sequels, #2)"
+      },
+      {
+        "item_idx": 4327,
+        "book_id": 4328,
+        "title": "A Knight in Shining Armor"
+      },
+      {
+        "item_idx": 6765,
+        "book_id": 6766,
+        "title": "The Wedding (Lairds' Fianc\u00e9es, #2)"
+      },
+      {
+        "item_idx": 9072,
+        "book_id": 9073,
+        "title": "The Flame and the Flower"
+      },
+      {
+        "item_idx": 7623,
+        "book_id": 7624,
+        "title": "Once and Always (Sequels, #1)"
+      }
+    ]
+  },
+  {
+    "persona_id": 35817,
+    "favorite_books": [
+      {
+        "item_idx": 0,
+        "book_id": 1,
+        "title": "The Hunger Games (The Hunger Games, #1)"
+      },
+      {
+        "item_idx": 3,
+        "book_id": 4,
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "item_idx": 664,
+        "book_id": 665,
+        "title": "The Passage (The Passage, #1)"
+      },
+      {
+        "item_idx": 3790,
+        "book_id": 3791,
+        "title": "The Crimson Petal and the White"
+      },
+      {
+        "item_idx": 265,
+        "book_id": 266,
+        "title": "Kiss the Girls (Alex Cross, #2)"
+      }
+    ],
+    "recommendations": [
+      {
+        "item_idx": 2914,
+        "book_id": 2915,
+        "title": "Bird Box"
+      },
+      {
+        "item_idx": 5627,
+        "book_id": 5628,
+        "title": "The Time in Between"
+      },
+      {
+        "item_idx": 8834,
+        "book_id": 8835,
+        "title": "The Moonlit Garden"
+      },
+      {
+        "item_idx": 5957,
+        "book_id": 5958,
+        "title": "Maya's Notebook"
+      },
+      {
+        "item_idx": 8117,
+        "book_id": 8118,
+        "title": "The Prettiest One"
+      },
+      {
+        "item_idx": 4881,
+        "book_id": 4882,
+        "title": "The Wolf Gift (The Wolf Gift Chronicles, #1)"
+      },
+      {
+        "item_idx": 6287,
+        "book_id": 6288,
+        "title": "The Descendants"
+      },
+      {
+        "item_idx": 2508,
+        "book_id": 2509,
+        "title": "The Atlantis Gene (The Origin Mystery, #1)"
+      },
+      {
+        "item_idx": 5725,
+        "book_id": 5726,
+        "title": "Don't You Cry"
+      },
+      {
+        "item_idx": 6014,
+        "book_id": 6015,
+        "title": "The Atlantis World (The Origin Mystery, #3)"
+      }
+    ]
+  }
+]
