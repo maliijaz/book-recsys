@@ -10,8 +10,8 @@ embeddings, no account required.
 
 Built entirely on free, open-source datasets, libraries, and hosting.
 
-- **Live demo:** [frontend-pink-sigma-tpwlh5pdpl.vercel.app](https://frontend-pink-sigma-tpwlh5pdpl.vercel.app)
-- **API:** [backend-ten-chi-74.vercel.app](https://backend-ten-chi-74.vercel.app) (interactive docs at `/docs`)
+- **Live demo:** [book-recsys-app.vercel.app](https://book-recsys-app.vercel.app)
+- **API:** [book-recsys-api.vercel.app](https://book-recsys-api.vercel.app) (interactive docs at `/docs`)
 
 ## Architecture
 

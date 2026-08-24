@@ -5,27 +5,39 @@ persona recommendations and a live re-ranking endpoint from artifacts built
 by the `pipeline` package -- no database. See `/docs` for the interactive
 API reference once deployed.
 
-## Deploying (Render, free)
+Live at: [book-recsys-api.vercel.app/docs](https://book-recsys-api.vercel.app/docs)
 
-1. Push this repo to GitHub with `artifacts/` populated (run
-   `python -m pipeline.cli run-all` first, or `docker compose run --rm pipeline`).
-2. On [Render](https://render.com), create a new **Web Service** directly
-   (not via **Blueprint** -- the Blueprint flow can prompt for card
-   verification even for a free-plan service; a plain Web Service does
-   not). Connect the repo, set **Root Directory** to the repo root, and
-   **Dockerfile Path** to `backend/Dockerfile` (Docker build context stays
-   the repo root so it can `COPY artifacts ./artifacts`). Select the
-   **Free** instance type.
-3. Set the environment variable `CORS_ALLOWED_ORIGINS` to your deployed
-   frontend origin (e.g. `https://your-app.vercel.app`).
-4. Render injects its own `$PORT` at runtime and the container's
-   `CMD` already binds to it -- no extra config needed.
+## Deploying (Vercel, free)
 
-`render.yaml` in the repo root documents the same config as Infrastructure-
-as-Code for reference (`render blueprint launch` from the Render CLI, or
-Render's Blueprint UI), but isn't required -- the manual Web Service path
-above is the one confirmed not to require a card.
+This directory is self-contained (`artifacts/` lives here) so it deploys as
+its own Vercel project with zero extra config:
 
-Free tier is 512MB RAM / 0.1 CPU and sleeps after 15 minutes idle (~30-50s
-cold start on the next request); this backend's own memory footprint is
-~150MB with all artifacts loaded, well within that limit.
+```bash
+cd backend
+vercel deploy --yes --prod
+```
+
+Vercel auto-detects the FastAPI `app` instance at `app/main.py`. After the
+first deploy, set the `CORS_ALLOWED_ORIGINS` environment variable to your
+frontend's URL and redeploy:
+
+```bash
+vercel env add CORS_ALLOWED_ORIGINS production --value "https://your-frontend.vercel.app" --yes
+vercel deploy --yes --prod --force
+```
+
+`vercel.json` sets `maxDuration: 30` for the function. Vercel Hobby is free
+with no credit card required.
+
+## Alternative: Docker / self-hosting
+
+`Dockerfile` builds a standalone container (`uvicorn`, binds to `$PORT`) for
+any Docker host -- used locally by `docker-compose.yml` at the repo root.
+We tried Hugging Face Spaces and Render as free hosts for this before
+settling on Vercel: HF changed policy in mid-2026 so Docker/Gradio SDK
+Spaces now require a paid PRO plan, and Render prompted for card
+verification in practice on both its Blueprint and plain Web Service
+creation flows, despite that not being a documented requirement. If you
+have access to a different free Docker host, this image should work
+unmodified -- just set `ARTIFACTS_DIR` (defaults to `./artifacts` relative
+to this directory) and `CORS_ALLOWED_ORIGINS`.
