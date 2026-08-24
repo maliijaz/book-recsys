@@ -10,8 +10,8 @@ embeddings, no account required.
 
 Built entirely on free, open-source datasets, libraries, and hosting.
 
-- **Live demo:** _add your deployed Vercel frontend URL here after deploying_
-- **API:** _add your deployed Vercel backend URL here after deploying_
+- **Live demo:** [frontend-pink-sigma-tpwlh5pdpl.vercel.app](https://frontend-pink-sigma-tpwlh5pdpl.vercel.app)
+- **API:** [backend-ten-chi-74.vercel.app](https://backend-ten-chi-74.vercel.app) (interactive docs at `/docs`)
 
 ## Architecture
 
