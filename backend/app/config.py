@@ -1,9 +1,14 @@
-"""Backend settings, sourced from environment variables so the same image
-works unmodified in local Docker Compose and on the deployed host (Render)."""
+"""Backend settings, sourced from environment variables so the same code
+works unmodified locally, in Docker, and as a Vercel Python function."""
 import os
 from pathlib import Path
 
-ARTIFACTS_DIR = Path(os.environ.get("ARTIFACTS_DIR", "/app/artifacts"))
+# Default resolves relative to this file (backend/app/config.py -> backend/artifacts),
+# which works with zero config wherever the process's cwd ends up (Vercel
+# Functions, `uvicorn` run from any directory). ARTIFACTS_DIR still overrides
+# it for Docker, where the image copies artifacts to a fixed /app/artifacts.
+_DEFAULT_ARTIFACTS_DIR = Path(__file__).resolve().parent.parent / "artifacts"
+ARTIFACTS_DIR = Path(os.environ.get("ARTIFACTS_DIR", str(_DEFAULT_ARTIFACTS_DIR)))
 
 # The deployed Vercel frontend origin(s) must be listed here (comma-separated)
 # via an env var, or cross-origin calls from the frontend will be blocked by

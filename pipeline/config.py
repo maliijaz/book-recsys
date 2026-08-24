@@ -4,7 +4,10 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_RAW_DIR = ROOT_DIR / "data" / "raw"
 DATA_PROCESSED_DIR = ROOT_DIR / "data" / "processed"
-ARTIFACTS_DIR = ROOT_DIR / "artifacts"
+# Lives inside backend/ (not repo root) so the backend directory is fully
+# self-contained -- required for deploying it as a standalone Vercel
+# project (Root Directory = backend/) with zero extra bundling config.
+ARTIFACTS_DIR = ROOT_DIR / "backend" / "artifacts"
 
 GOODBOOKS_BASE_URL = "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master"
 GOODBOOKS_FILES = ["ratings.csv", "books.csv", "book_tags.csv", "tags.csv", "to_read.csv"]

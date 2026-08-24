@@ -10,16 +10,16 @@ embeddings, no account required.
 
 Built entirely on free, open-source datasets, libraries, and hosting.
 
-- **Live demo:** _add your deployed Vercel URL here after deploying_
-- **API:** _add your deployed Render URL here after deploying_
+- **Live demo:** _add your deployed Vercel frontend URL here after deploying_
+- **API:** _add your deployed Vercel backend URL here after deploying_
 
 ## Architecture
 
 ```
-Next.js 16 (Vercel, free)  ──HTTPS──▶  FastAPI (Render, Docker, free)
-                                           │ loads at startup, no DB
+Next.js 16 (Vercel, free)  ──HTTPS──▶  FastAPI (Vercel Python Function, free)
+                                           │ loads at cold start, no DB
                                            ▼
-                              artifacts/ baked into the image:
+                              backend/artifacts/ committed to the repo:
                               book_metadata.parquet, item_embeddings.npy,
                               content_embeddings.npy, cf_weight.npy,
                               persona_recommendations.json, metrics.json
@@ -29,10 +29,11 @@ Next.js 16 (Vercel, free)  ──HTTPS──▶  FastAPI (Render, Docker, free)
 
 - **`pipeline/`** — a real, testable Python package (not notebooks) that downloads
   goodbooks-10k, trains all 8 models, evaluates them, and exports the
-  artifacts above.
-- **`backend/`** — FastAPI service. Deliberately excludes torch/sentence-transformers/etc:
-  it only does numpy/pandas lookups against artifacts the pipeline already
-  produced. Two serving paths:
+  artifacts above into `backend/artifacts/`.
+- **`backend/`** — FastAPI service, self-contained so it deploys as its own
+  Vercel project (Root Directory = `backend/`). Deliberately excludes
+  torch/sentence-transformers/etc: it only does numpy/pandas lookups against
+  artifacts the pipeline already produced. Two serving paths:
   - *Batch*: precomputed recommendations for ~20 sample "persona" users from the dataset.
   - *Live*: `POST /recommendations/live` — pick a few books, no login, and the backend
     mean-pools their embeddings into an ad-hoc user vector and re-ranks the whole
@@ -68,7 +69,7 @@ build a more severe, independent cold-start evaluation slice.
 
 Full evaluation methodology (Precision/Recall/NDCG/HitRate@{5,10,20}, catalog
 coverage, and a dedicated cold-start slice) lives in `pipeline/evaluation/`.
-Results are exported to `artifacts/metrics.json` and rendered at `/about` in
+Results are exported to `backend/artifacts/metrics.json` and rendered at `/about` in
 the frontend.
 
 ### Actual results (trained on the real dataset)
@@ -129,8 +130,8 @@ docker compose run --rm pipeline
 ```
 
 This runs `python -m pipeline.cli run-all`: download → preprocess → train
-all 8 models → evaluate → export into `artifacts/`, which `backend` then
-loads at startup.
+all 8 models → evaluate → export into `backend/artifacts/`, which `backend`
+then loads at startup.
 
 ### Running without Docker
 
@@ -157,32 +158,48 @@ pytest tests/
 
 ## Deployment
 
-- **Backend → Render (free Web Service, Docker).** Create a Web Service
-  from this repo, root directory `.`, Dockerfile path `backend/Dockerfile`
-  (see `backend/README.md` for the full steps). Set
-  `CORS_ALLOWED_ORIGINS` to your Vercel URL. No credit card required.
-- **Frontend → Vercel.** Import the `frontend/` directory as a project, set
-  `NEXT_PUBLIC_API_BASE_URL` to your Render service's URL (e.g.
-  `https://your-backend.onrender.com`).
+Both halves deploy to **Vercel** (Hobby plan — free, no credit card):
 
-> **Note on hosting choice:** the original plan targeted Hugging Face
-> Spaces' Docker SDK, but HF changed policy in mid-2026 so creating a
-> Docker (or Gradio) SDK Space now requires a paid PRO plan — it's no
-> longer available on the free tier. Render's free Web Service tier covers
-> the same need (deploy a plain Dockerfile, no card required) and this
-> backend's ~150MB memory footprint comfortably fits its 512MB limit.
+- **Backend → Vercel, as its own project.** Import the repo a second time
+  with **Root Directory = `backend/`**. Vercel auto-detects the FastAPI
+  `app` instance at `app/main.py` — zero config needed beyond that. Set
+  `CORS_ALLOWED_ORIGINS` to your frontend's Vercel URL.
+- **Frontend → Vercel, Root Directory = `frontend/`.** Set
+  `NEXT_PUBLIC_API_BASE_URL` to the backend project's URL (e.g.
+  `https://your-backend.vercel.app`).
 
-Both tiers are free. Render's free tier sleeps after 15 minutes idle, so a
-request after a gap can take 30–50s to wake up — the taste-profile page
-shows a "waking up the model server…" message during that window rather
-than looking stuck.
+Or via CLI, once logged in (`vercel login`):
+
+```bash
+cd backend && vercel deploy --yes --prod
+cd ../frontend && vercel deploy --yes --prod -e NEXT_PUBLIC_API_BASE_URL=https://your-backend.vercel.app
+```
+
+> **Note on hosting choice:** this went through two false starts. The
+> original plan targeted Hugging Face Spaces' Docker SDK, but HF changed
+> policy in mid-2026 so creating a Docker (or Gradio) SDK Space now
+> requires a paid PRO plan. The fallback, Render's free Web Service tier,
+> turned out to also prompt for card verification in practice (both via
+> its Blueprint flow and plain Web Service creation), despite that not
+> being documented as a requirement. Vercel Hobby — already proven free
+> and card-free for the frontend — turned out to support the backend too:
+> FastAPI deploys there as a single Python serverless function with zero
+> extra config, so both halves now live on one platform. `backend/Dockerfile`
+> and `docker-compose.yml` are kept for local dev and as a documented
+> fallback (e.g. Render, Fly.io, or self-hosting) if you'd rather run the
+> backend as a container somewhere.
+
+New visitors on a cold Vercel Function may see a brief delay on the first
+request while it loads the ~150MB of artifacts into memory — the
+taste-profile page shows a "waking up the model server…" message during
+that window rather than looking stuck.
 
 ## Repository layout
 
 ```
-pipeline/    offline ML package: data prep, 8 models, evaluation, artifact export
-backend/     FastAPI service (no database, artifacts loaded at startup)
-frontend/    Next.js 16 app
-artifacts/   generated by the pipeline, consumed by the backend
-tests/       pytest: pipeline logic + backend API
+pipeline/           offline ML package: data prep, 8 models, evaluation, artifact export
+backend/             FastAPI service, self-contained (own Vercel project / Dockerfile)
+backend/artifacts/   generated by the pipeline, committed so backend/ deploys standalone
+frontend/            Next.js 16 app (own Vercel project)
+tests/               pytest: pipeline logic + backend API
 ```

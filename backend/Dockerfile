@@ -6,7 +6,7 @@ COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY backend/app ./app
-COPY artifacts ./artifacts
+COPY backend/artifacts ./artifacts
 
 ENV ARTIFACTS_DIR=/app/artifacts
 # Render (and most PaaS Docker hosts) inject their own $PORT at runtime,

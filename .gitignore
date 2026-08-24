@@ -10,10 +10,9 @@ data/raw/
 data/processed/
 mlruns/
 
-# artifacts/ (~18MB: embeddings, metadata, precomputed recs, metrics) IS
-# committed on purpose -- the backend Docker image bakes it in at build
-# time via `COPY artifacts ./artifacts`, and deploy hosts build straight
-# from this repo with no separate training step.
+# backend/artifacts/ (~18MB: embeddings, metadata, precomputed recs, metrics)
+# IS committed on purpose -- it's what makes backend/ deployable standalone
+# (Vercel Python function or Docker) with no separate training step.
 
 # Node / Next.js
 frontend/node_modules/

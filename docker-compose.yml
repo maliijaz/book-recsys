@@ -10,7 +10,7 @@ services:
       CORS_ALLOWED_ORIGINS: http://localhost:3000
       PORT: "8000"
     volumes:
-      - ./artifacts:/app/artifacts
+      - ./backend/artifacts:/app/artifacts
 
   frontend:
     build:
@@ -33,5 +33,7 @@ services:
       dockerfile: pipeline/Dockerfile
     volumes:
       - ./data:/app/data
-      - ./artifacts:/app/artifacts
+      # pipeline/config.py resolves ARTIFACTS_DIR to <repo_root>/backend/artifacts,
+      # and ROOT_DIR is /app inside this container -- mount to match.
+      - ./backend/artifacts:/app/backend/artifacts
     profiles: ["pipeline"]
