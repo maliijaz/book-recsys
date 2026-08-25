@@ -5,7 +5,7 @@ persona recommendations and a live re-ranking endpoint from artifacts built
 by the `pipeline` package -- no database. See `/docs` for the interactive
 API reference once deployed.
 
-Live at: [book-recsys-api.vercel.app/docs](https://book-recsys-api.vercel.app/docs)
+Live at: [shelf-recs-api.vercel.app/docs](https://shelf-recs-api.vercel.app/docs)
 
 ## Deploying (Vercel, free)
 

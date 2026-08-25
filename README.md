@@ -10,8 +10,8 @@ embeddings, no account required.
 
 Built entirely on free, open-source datasets, libraries, and hosting.
 
-- **Live demo:** [book-recsys-app.vercel.app](https://book-recsys-app.vercel.app)
-- **API:** [book-recsys-api.vercel.app](https://book-recsys-api.vercel.app) (interactive docs at `/docs`)
+- **Live demo:** [shelf-recs-app.vercel.app](https://shelf-recs-app.vercel.app)
+- **API:** [shelf-recs-api.vercel.app](https://shelf-recs-api.vercel.app) (interactive docs at `/docs`)
 
 ## Architecture
 
